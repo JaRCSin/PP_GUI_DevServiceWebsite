@@ -1,0 +1,45 @@
+
+
+<mat-drawer-container class="example-container transparent" autosize style="height: 100vh;">
+    <mat-drawer #drawer class="example-sidenav side-drawer-size" mode="side">
+      <div style="height: 50px;">
+        <button class="hide-sidenav" type="button" mat-button (click)="drawer.toggle()">
+          <mat-icon style="color: white;">keyboard_arrow_left</mat-icon>
+        </button>
+      </div>
+      <button class="sidenav-button" type="button" mat-raised-button color="primary" style="width: 90%; height: 70px;">ABOUT US</button>
+      <button class="sidenav-button" type="button" mat-raised-button color="primary" style="width: 90%; height: 70px;" (click)="gotoServices()">SERVICES</button>
+      <button class="sidenav-button" type="button" mat-raised-button color="primary" style="width: 90%; height: 70px;">PORTFOLIO</button>
+      <button class="sidenav-button" type="button" mat-raised-button color="primary" style="width: 90%; height: 70px;">CONTACT US</button>
+      <div style="height: 30%;"></div>
+      <button class="sidenav-button" type="button" mat-raised-button color="primary" style="width: 90%; height: 70px;">JOIN US</button>
+    </mat-drawer>
+  
+    <div class="menu-bar">
+      <button class="hamburger" type="button" mat-button (click)="drawer.toggle()">
+        <mat-icon style="color: white;">more_vert</mat-icon>
+      </button>
+
+      
+      <img src="assets/logo_white.png" class="menu-bar-logo">
+      
+
+      <div id="title" (click)="gotohome()">
+          <h1 class="title">Cypher Industries</h1>
+      </div>
+      <div class="search-bar-container">
+
+        <input class="search-bar" placeholder="Search" style="width: 100px;"> 
+        <button class="search-button" type="button" mat-button>
+          <mat-icon style="color: white; width: 20px;">search</mat-icon>
+        </button>
+
+      </div>
+    </div>
+    <div class="fit-page">
+      <router-outlet>
+        
+      </router-outlet>
+    </div>
+    
+  </mat-drawer-container>

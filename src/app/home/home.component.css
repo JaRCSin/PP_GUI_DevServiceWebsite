@@ -1,0 +1,81 @@
+
+.menu-bar {
+    height: 60px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hamburger {
+    position: absolute;
+    margin-top: 10px;
+
+}
+
+.hide-sidenav {
+    position: absolute;
+    margin-top: 10px;
+    right: 0;
+}
+.search-bar-container {
+    position: absolute;
+    margin-top: 10px;
+    right: 50px;
+    border-color: white;
+    border: solid 1px white;
+    border-radius: 10px;
+    height: 38px;
+    width: auto;
+}
+
+.search-bar {
+    margin-top: 10px;
+    background-color: transparent;
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-bottom: none !important;
+    color: white;
+    padding-left: 10px;
+}
+
+.transparent {
+    background-color: rgb(255, 255, 255, 0.0);
+}
+.fit-page {
+    height: auto;
+
+}
+
+.side-drawer-size {
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.sidenav-button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1 {
+    font-size: 23px;
+}
+.title {
+    align-items: center;
+    color: white;
+    margin-top: 12px;
+    margin-left: 150px;
+    position:absolute;
+}
+.menu-bar-logo {
+    position: absolute;
+    max-height: 70px;
+    max-width: 70px;
+    margin-left: 70px;
+    margin-top: -3px;
+}
